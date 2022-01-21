@@ -1,0 +1,1 @@
+Exemple de code Javascript permettant une saisie et une récupération d'élément.

@@ -1,0 +1,27 @@
+    1  git --version
+    2  pwd =Se déplace dans un dossier pour en faire le chemin courant
+    3  ls = Lister le répertoire courant 
+    4  mkdir test3 = créer le dossier "test3"
+    5  ls  = Lister le répertoire courant
+    6  cd test3 = Se déplace dans le fichier "test3"
+    7  ls = Lister le répertoire courant
+    8  ls -l = Donne plus d'infos sur le dossier
+    9  touch file.txt = Créer un fichier txt
+   10  ls -l = Donne plus d'infos sur le dossier
+   11  ls -l = Donne plus d'infos sur le dossier
+   12  cat file.txt =Lecture du fichier 
+   13  code file.txt = ouvrir le fichier avec l'application "visual code"
+   14  man ls = ne fonctionne pas sous Windows, a remplacer par ls --help
+   15  <command> --help = ne fonctionne pas (test d'une solution vu sur git"
+   16  man get  = ne fonctionne pas sous Windows, a remplacer par ls --help
+   17  man gets  = ne fonctionne pas sous Windows, a remplacer par ls --help
+   18  git help = aide sur les commande de git
+   19  history = Liste l'historique des commandes utiliser
+   20  ls --l = Affiche le répertoire
+   21  ls --help = affiche des commandes
+   22  history = historique des commandes passé !
+   23  history > history_log.txt = créer l'historique dans un fichier "history_log.txt"
+   24  echo = Ecrire un msg
+   25  echo "blabla" > test.txt = ajoute "blabla" au fichier "test.txt"
+   26  echo "blabla" >> test.txt = ajoute "blabla" au fichier "test.txt" sans écraser le message précédent
+   

@@ -1,0 +1,12 @@
+Sur l'exo 007 en javascript, ma proposition de pseudo code de la fonction de traitement de l'événement "click" sur le bouton "compute" :
+
+
+
+fonction clickHandler:
+  Récupérer les valeurs des champs d'input
+  Convertir les valeurs récupérées en nombre
+  Si une convertion en nombre s'est mal passé:
+    Afficher un message d'erreur à l'utilisateur
+    Sortir de la fonction
+  Additionner les deux nombres entre-eux
+  Afficher ce résultat à l'utilisateur
