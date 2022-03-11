@@ -2,7 +2,7 @@
 
 
 Le dossier model répertorie les différents exercices donné lors de la formation SIMPLON, 
-Décomposé pour le moment en 3 dossiers regroupant chacun les exercices et des notes:
+Décomposé en dossiers regroupant chacun les exercices et des notes:
 
  - *HTML-CSS*
  - *JAVASCRIPT*
