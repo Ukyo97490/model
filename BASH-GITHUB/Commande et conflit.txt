@@ -1,0 +1,22 @@
+Conflit GIT
+(Fork= créer une copie d'un dépôts pour pouvoir travailler dessus)
+Faire un git remote, pour changer le dépots distant
+
+
+git commit -m "mon message"  (le -m permet de mettre un message sur le commit)
+Si le commit et un fichier avant le master, et qu'on re-modifie le commit (au même endroit, sur le fichier),on aura deux modif en même temps de deux personnes, si l'une des deux fait un git push, 
+git refusera et mettra un message avertissant que la branche actuel est en retard par rapport  a la branche principal.
+git proposera un "git pull", et affichera la zone de conflit, il n'arrivera pas a faire un merging automatique pour mélanger les deux fichiers...on doit nous même modifier le fichier avec notre éditeur.
+
+le fichier sera composé de 
+
+<<<<<<HEAD
+Les dernières modifs
+=============
+Les modifs faite avant
+>>>>>>>>>>>>>>>>ef15e4f87es5f4e87f8e4f5e45f7e848
+
+Il faudra faire un ménage manuel, git proposera une résolution manuel a l'utilisateur en cas de conflits.
+ensuite "push"
+
+les lignes commençant par "#" sont des lignes de commentaires.
